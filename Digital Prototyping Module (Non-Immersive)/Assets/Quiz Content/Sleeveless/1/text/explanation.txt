@@ -1,0 +1,1 @@
+The horizontal baseline was not parallel to the ground, and this created a balance issue. Lifting the back panel by removing fabric from the shoulders fixes the issue.
