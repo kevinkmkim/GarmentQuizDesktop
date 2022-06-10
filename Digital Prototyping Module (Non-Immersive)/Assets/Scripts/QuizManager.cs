@@ -34,9 +34,9 @@ public class QuizManager : MonoBehaviour
         generateQuestion();
     }
 
-    public void retry()
+    public void toMainMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void GameOver()
