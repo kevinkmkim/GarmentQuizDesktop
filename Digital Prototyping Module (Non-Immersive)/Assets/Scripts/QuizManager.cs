@@ -25,7 +25,8 @@ public class QuizManager : MonoBehaviour
     public TextMeshProUGUI ScoreTxt;
     
     int totalQuestions = 0;
-    public int score;
+    private int tries = 0;
+    public float score;
 
     private void Start() {
         totalQuestions = QnA.Count;
@@ -48,15 +49,31 @@ public class QuizManager : MonoBehaviour
 
     public void correct()
     {
-        score += 1;
+        if (tries == 0)
+        {
+            score += 1.0f;
+        }
+        else if (tries == 1)
+        {
+            score += 0.5f;
+        }
+        tries = 0;
         QnA.RemoveAt(currentQuestion);
         StartCoroutine(WaitForNext());
     }
 
     public void wrong()
     {
-        QnA.RemoveAt(currentQuestion);
-        StartCoroutine(WaitForNext());
+        if (tries < 2)
+        {
+            tries += 1;
+        }
+        else
+        {
+            tries = 0;
+            QnA.RemoveAt(currentQuestion);
+            StartCoroutine(WaitForNext());
+        }
     }
 
     void SetAnswers()
