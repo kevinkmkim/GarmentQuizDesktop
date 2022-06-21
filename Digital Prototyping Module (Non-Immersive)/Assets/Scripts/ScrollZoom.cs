@@ -30,9 +30,5 @@ public class ScrollZoom : MonoBehaviour
                 }
             }
         }
-        // else
-        // {
-        //     ZoomCamera.fieldOfView -= Input.GetAxis("Mouse ScrollWheel") * ScrollSpeed;
-        // }
     }
 }
