@@ -76,6 +76,7 @@
      <Compile Include="Assets/Scripts/ScrollZoom.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+     <Compile Include="Assets/Scripts/Category.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Quiz Content/Skirt/1/text/explanation.txt" />
