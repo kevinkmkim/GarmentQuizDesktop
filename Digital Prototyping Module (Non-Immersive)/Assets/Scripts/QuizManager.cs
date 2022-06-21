@@ -12,21 +12,27 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
     public GameObject Model;
+    public GameObject ReviewModel;
+    public Transform SpawnPosition;
 
     private Vector3 modelPos = new Vector3 (-5, -4, 50);
     private Quaternion modelRot = Quaternion.Euler(0, 180, 0);
     // private Vector3 modelScale = ();
 
     public GameObject QuizPanel;
+    public GameObject ReviewPanel;
     public GameObject GOPanel;
 
     // public TextAsset QuestionTxt;
     public TextMeshProUGUI QuestionTxt;
+    public TextMeshProUGUI ReviewTxt;
     public TextMeshProUGUI ScoreTxt;
     
     int totalQuestions = 0;
     private int tries = 0;
     public float score;
+
+    public Button proceedButton;
 
     private void Start() {
         totalQuestions = QnA.Count;
@@ -58,8 +64,8 @@ public class QuizManager : MonoBehaviour
             score += 0.5f;
         }
         tries = 0;
-        QnA.RemoveAt(currentQuestion);
-        StartCoroutine(WaitForNext());
+
+        StartCoroutine(WaitForReview());
     }
 
     public void wrong()
@@ -71,8 +77,7 @@ public class QuizManager : MonoBehaviour
         else
         {
             tries = 0;
-            QnA.RemoveAt(currentQuestion);
-            StartCoroutine(WaitForNext());
+            StartCoroutine(WaitForReview());
         }
     }
 
@@ -94,13 +99,15 @@ public class QuizManager : MonoBehaviour
 
     void generateQuestion()
     {
+        QuizPanel.SetActive(true);
+        ReviewPanel.SetActive(false);
+
         if (QnA.Count > 0)
         {
-            // currentQuestion = Random.Range(0,QnA.Count);
             Debug.Log(currentQuestion);
 
             QuestionTxt.text = QnA[currentQuestion].Question.text;
-            Model = Instantiate(QnA[currentQuestion].Model, modelPos, modelRot);
+            Model = Instantiate(QnA[currentQuestion].Model, SpawnPosition.position, modelRot);
             SetAnswers();
         }
         else
@@ -110,10 +117,28 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    IEnumerator WaitForNext()
+
+    void generateReview()
+    {
+        QuizPanel.SetActive(false);
+        ReviewPanel.SetActive(true);
+
+        ReviewTxt.text = QnA[currentQuestion].Review.text;
+        ReviewModel = Instantiate(QnA[currentQuestion].reviewModel, modelPos, modelRot);
+        
+        QnA.RemoveAt(currentQuestion);
+    }
+
+    IEnumerator WaitForReview()
     {
         yield return new WaitForSeconds(1);
+        generateReview();
+    }
+
+    public void Proceed()
+    {
         Destroy(Model);
+        Destroy(ReviewModel);
         generateQuestion();
     }
 }

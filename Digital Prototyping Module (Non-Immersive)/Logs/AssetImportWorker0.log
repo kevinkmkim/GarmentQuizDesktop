@@ -1,0 +1,389 @@
+Unity Editor version:    2021.3.1f1 (3b70a0754835)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module (Non-Immersive)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51826
+Successfully changed project path to: /Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module (Non-Immersive)
+/Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module (Non-Immersive)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 99.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module (Non-Immersive)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56730
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.000825 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1581ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1168ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (823ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (233ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (175ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001671 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module (Non-Immersive)/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module (Non-Immersive)/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.482 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2484ms)
+		BeginReloadAssembly (361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (1814ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1120ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (73ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (831ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3278 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (96.2 KB). Loaded Objects now: 3741.
+Memory consumption went from 230.9 MB to 230.8 MB.
+Total: 3.048833 ms (FindLiveObjects: 0.200709 ms CreateObjectMapping: 0.081834 ms MarkObjects: 2.642667 ms  DeleteObjects: 0.122750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46363.861448 seconds.
+  path: Assets/Quiz Content/Sleeveless/1/choices 1/2.PNG
+  artifactKey: Guid(fe4c98527cad9472e85257b06475361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Sleeveless/1/choices 1/2.PNG using Guid(fe4c98527cad9472e85257b06475361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03964887a9e2bb2bc57d22e29ee7557e') in 0.832693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Quiz Content/Sleeveless/1/choices 1
+  artifactKey: Guid(e84679ca5755e42659265765f145d894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Sleeveless/1/choices 1 using Guid(e84679ca5755e42659265765f145d894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c5429f1ca16eea1bcb8500f744f9b9') in 0.001092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Quiz Content/Sleeveless/1/choices 1/1.PNG
+  artifactKey: Guid(fc4ba8469c75f4b7491e146f4a30d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Sleeveless/1/choices 1/1.PNG using Guid(fc4ba8469c75f4b7491e146f4a30d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a0851c84e2be20667ff43bc39307fe') in 0.013603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.379835 seconds.
+  path: Assets/Quiz Content/Sleeveless/final/1.PNG
+  artifactKey: Guid(fc2efe9075aaf41bba0e0195c896abe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Sleeveless/final/1.PNG using Guid(fc2efe9075aaf41bba0e0195c896abe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6eb3ca81b326fc454e83171f7fc766c') in 0.021932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.678623 seconds.
+  path: Assets/Quiz Content/Pants/1/choices
+  artifactKey: Guid(af7208dff04a04970b8ae4a22ab5549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Pants/1/choices using Guid(af7208dff04a04970b8ae4a22ab5549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd910f68d850f58506a10c876e6ac9c5f') in 0.001839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.505543 seconds.
+  path: Assets/Quiz Content/Pants/2/choices
+  artifactKey: Guid(feb2b94c543ec441a834b9cec9e082f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Pants/2/choices using Guid(feb2b94c543ec441a834b9cec9e082f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a2b18128079200d15cb6924cb5b0b8') in 0.001213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.022029 seconds.
+  path: Assets/Quiz Content/Pants/3/choices
+  artifactKey: Guid(de02e3c3d9b8743a8a7ab8e7ccdba87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Pants/3/choices using Guid(de02e3c3d9b8743a8a7ab8e7ccdba87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ba5e406423cd7da7d9a568f61cbb92') in 0.000714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.209291 seconds.
+  path: Assets/Quiz Content/Dress/1/choices
+  artifactKey: Guid(96a6c4c5cc6204f199d634654322e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Dress/1/choices using Guid(96a6c4c5cc6204f199d634654322e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab3f4d450c8280e01680092bb08f0ca') in 0.000721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.881576 seconds.
+  path: Assets/Quiz Content/Dress/2/choices
+  artifactKey: Guid(f75103289048442aca2cbe35e4c64307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Dress/2/choices using Guid(f75103289048442aca2cbe35e4c64307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205f30637cf4960923d399511ee4a64e') in 0.001669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.468385 seconds.
+  path: Assets/Quiz Content/Dress/3/choices
+  artifactKey: Guid(8ab7934f02522422fa0ad19cef288761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Dress/3/choices using Guid(8ab7934f02522422fa0ad19cef288761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23416eded9c0cd64eeff5768c614d1d') in 0.001150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.658798 seconds.
+  path: Assets/Quiz Content/Longsleeve/2/choices
+  artifactKey: Guid(584e3e7f6c430404b93160c4d4bc3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/2/choices using Guid(584e3e7f6c430404b93160c4d4bc3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc6fbd11a6f47f4ebe6092355191388') in 0.000726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.649411 seconds.
+  path: Assets/Quiz Content/Longsleeve/3/choices
+  artifactKey: Guid(d6af70a5f47574679b653c106d1af1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/3/choices using Guid(d6af70a5f47574679b653c106d1af1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1965c7b0875ebe8b97a28beec609fd60') in 0.000727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.566722 seconds.
+  path: Assets/Quiz Content/Skirt/1/choices
+  artifactKey: Guid(26fba268a08604ce4959b1a391ac833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Skirt/1/choices using Guid(26fba268a08604ce4959b1a391ac833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30f6fa0f2a30baf0af9781efb4fa6ae') in 0.001314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.172863 seconds.
+  path: Assets/Quiz Content/Skirt/2/choices
+  artifactKey: Guid(b5e4f938a513940e193be2347a9dbe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Skirt/2/choices using Guid(b5e4f938a513940e193be2347a9dbe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf74a66a346ac5420c5dbea103bb928') in 0.001059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.906323 seconds.
+  path: Assets/Quiz Content/Skirt/3/choices
+  artifactKey: Guid(99ec39507984d445487928dc21528977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Skirt/3/choices using Guid(99ec39507984d445487928dc21528977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de4258300ae29fc430d1dc5026f37ca') in 0.001379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.242828 seconds.
+  path: Assets/Quiz Content/Tutorial
+  artifactKey: Guid(c6ca601743c914351b251f47a5d8b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Tutorial using Guid(c6ca601743c914351b251f47a5d8b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc78cbec994513ea154dda9399a648c') in 0.001903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.332527 seconds.
+  path: Assets/Quiz Content/Longsleeve/1/text
+  artifactKey: Guid(7d6a2b611bf9847aea853b5dcc00dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/1/text using Guid(7d6a2b611bf9847aea853b5dcc00dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b7704ddd9b42551c72ee0905869387') in 0.002253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.649792 seconds.
+  path: Assets/Quiz Content/Longsleeve/1/t 1ext
+  artifactKey: Guid(7d6a2b611bf9847aea853b5dcc00dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/1/t 1ext using Guid(7d6a2b611bf9847aea853b5dcc00dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39a8c1db788ce4a2ec6589d115efa62') in 0.000928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.215902 seconds.
+  path: Assets/Quiz Content/Longsleeve/1/1 text
+  artifactKey: Guid(7d6a2b611bf9847aea853b5dcc00dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/1/1 text using Guid(7d6a2b611bf9847aea853b5dcc00dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec020de1a4ff60fb5592c409093c1c4') in 0.000755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.176284 seconds.
+  path: Assets/Quiz Content/Longsleeve/2/text
+  artifactKey: Guid(d3f35cead42c84ed4b50736a5f0afa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/2/text using Guid(d3f35cead42c84ed4b50736a5f0afa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4651b9206cedd5e3aeaeb51769ed6093') in 0.001973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.197787 seconds.
+  path: Assets/Quiz Content/Longsleeve/2/2text
+  artifactKey: Guid(d3f35cead42c84ed4b50736a5f0afa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/2/2text using Guid(d3f35cead42c84ed4b50736a5f0afa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd857b3f9da6f1f4881c29c5822914966') in 0.001030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.244698 seconds.
+  path: Assets/Quiz Content/Longsleeve/2/2 text
+  artifactKey: Guid(d3f35cead42c84ed4b50736a5f0afa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/2/2 text using Guid(d3f35cead42c84ed4b50736a5f0afa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1a51e13bc27bf233304ee982feb088') in 0.001153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.379508 seconds.
+  path: Assets/Quiz Content/Longsleeve/3/text
+  artifactKey: Guid(59b03be358bc948f9a0e2530892b4df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/3/text using Guid(59b03be358bc948f9a0e2530892b4df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8235f04c9037ddfbe70a23638f613c2') in 0.001428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.229141 seconds.
+  path: Assets/Quiz Content/Longsleeve/3/3 text
+  artifactKey: Guid(59b03be358bc948f9a0e2530892b4df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/3/3 text using Guid(59b03be358bc948f9a0e2530892b4df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c942ed50ca74118ac4076f69c1d82b') in 0.000830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.469978 seconds.
+  path: Assets/Quiz Content/Tutorial/1
+  artifactKey: Guid(424c50a1643354d16af1a8472d715d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Tutorial/1 using Guid(424c50a1643354d16af1a8472d715d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da8c94376fc87018c930a79d2ac809d') in 0.001559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.356365 seconds.
+  path: Assets/Quiz Content/Tutorial/1/one.prefab
+  artifactKey: Guid(190b0464564214fa38c63d3df9e91365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Tutorial/1/one.prefab using Guid(190b0464564214fa38c63d3df9e91365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3e44942600c3c81ec440dcf13d658b') in 0.759029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.029833 seconds.
+  path: Assets/Quiz Content/Longsleeve/prefabs/1.prefab
+  artifactKey: Guid(7caac4e47b70d415a95317c1c3a0fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/prefabs/1.prefab using Guid(7caac4e47b70d415a95317c1c3a0fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ce28ec303aa747478b02f05bf91a51') in 0.037728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.762380 seconds.
+  path: Assets/Quiz Content/Longsleeve/prefabs/2.prefab
+  artifactKey: Guid(62a75ed8f617148f18ce78ca4552d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/prefabs/2.prefab using Guid(62a75ed8f617148f18ce78ca4552d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ef102b50a684f78440b73c4ddefdea') in 0.037848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.463985 seconds.
+  path: Assets/Quiz Content/Longsleeve/prefabs/3.prefab
+  artifactKey: Guid(88a0a583c95544814b7a5a28819a39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/prefabs/3.prefab using Guid(88a0a583c95544814b7a5a28819a39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b96cfd0a990685975257d8b2e6f9d3') in 0.039584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.005869 seconds.
+  path: Assets/Quiz Content/Longsleeve/prefabs/4.prefab
+  artifactKey: Guid(ba9f8558db6aa48f8bf4073d4562ebdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/prefabs/4.prefab using Guid(ba9f8558db6aa48f8bf4073d4562ebdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ff3af8f5a86ae684ae7d3afaf57817') in 0.022968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1867.830116 seconds.
+  path: Assets/Quiz Content/Longsleeve/3/text
+  artifactKey: Guid(07761179dd8ba4d95869c32a0fb2105c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Longsleeve/3/text using Guid(07761179dd8ba4d95869c32a0fb2105c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d72f62caa7fe4704ca95945672a517') in 0.001384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 464.708648 seconds.
+  path: Assets/Quiz Content/Sleeveless/1/choices/1.PNG
+  artifactKey: Guid(2c235306ae4c746ee8d23036977246f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Sleeveless/1/choices/1.PNG using Guid(2c235306ae4c746ee8d23036977246f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45d0989f17a7f22e86197fd09b15525') in 0.066454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Quiz Content/Sleeveless/1/choices/3.PNG
+  artifactKey: Guid(a4377c7f4f9404e199606392f81d49eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Sleeveless/1/choices/3.PNG using Guid(a4377c7f4f9404e199606392f81d49eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d06958955478710610af0ea88055b3c') in 0.007260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.819569 seconds.
+  path: Assets/Quiz Content/Sleeveless/1/choices/1.PNG
+  artifactKey: Guid(2c235306ae4c746ee8d23036977246f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Sleeveless/1/choices/1.PNG using Guid(2c235306ae4c746ee8d23036977246f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3638fb706461e24ce7a0238efa4a600') in 0.275361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003166 seconds.
+  path: Assets/Quiz Content/Sleeveless/1/choices/3.PNG
+  artifactKey: Guid(a4377c7f4f9404e199606392f81d49eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiz Content/Sleeveless/1/choices/3.PNG using Guid(a4377c7f4f9404e199606392f81d49eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aa00fef03ea0004e4a12ab03e72a56') in 0.144319 seconds 
