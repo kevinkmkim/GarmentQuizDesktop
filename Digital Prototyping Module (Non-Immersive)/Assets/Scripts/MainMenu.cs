@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame () {
+
+    public void LoadQuiz (int buttonIndex) {
+        Debug.Log(buttonIndex);
+        QuizManager.categoryIndex = buttonIndex;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        // [equivalent to] SceneManager.LoadScene("Game");
     }
 }

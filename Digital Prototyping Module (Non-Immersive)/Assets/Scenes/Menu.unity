@@ -278,6 +278,7 @@ GameObject:
   - component: {fileID: 178198756}
   - component: {fileID: 178198755}
   - component: {fileID: 178198754}
+  - component: {fileID: 178198757}
   m_Layer: 5
   m_Name: SkirtButton
   m_TagString: Untagged
@@ -353,12 +354,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 808352525}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+        m_MethodName: LoadQuiz
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -401,6 +402,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178198752}
   m_CullTransparentMesh: 1
+--- !u!114 &178198757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178198752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b397d936642474b75b0dc3c1d258f2ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &193337625
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +426,7 @@ GameObject:
   - component: {fileID: 193337629}
   - component: {fileID: 193337628}
   - component: {fileID: 193337627}
+  - component: {fileID: 193337630}
   m_Layer: 5
   m_Name: DressButton
   m_TagString: Untagged
@@ -488,12 +502,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 808352525}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+        m_MethodName: LoadQuiz
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -536,6 +550,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193337625}
   m_CullTransparentMesh: 1
+--- !u!114 &193337630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193337625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b397d936642474b75b0dc3c1d258f2ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &202323453
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +920,7 @@ GameObject:
   - component: {fileID: 690275442}
   - component: {fileID: 690275441}
   - component: {fileID: 690275440}
+  - component: {fileID: 690275443}
   m_Layer: 5
   m_Name: LongsleeveButton
   m_TagString: Untagged
@@ -969,12 +996,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 808352525}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+        m_MethodName: LoadQuiz
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1017,6 +1044,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690275438}
   m_CullTransparentMesh: 1
+--- !u!114 &690275443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690275438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b397d936642474b75b0dc3c1d258f2ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &744338896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1068,7 @@ GameObject:
   - component: {fileID: 744338900}
   - component: {fileID: 744338899}
   - component: {fileID: 744338898}
+  - component: {fileID: 744338901}
   m_Layer: 5
   m_Name: PantsButton
   m_TagString: Untagged
@@ -1104,12 +1144,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 808352525}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+        m_MethodName: LoadQuiz
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1152,6 +1192,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744338896}
   m_CullTransparentMesh: 1
+--- !u!114 &744338901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744338896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b397d936642474b75b0dc3c1d258f2ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &768280826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,6 +1216,7 @@ GameObject:
   - component: {fileID: 768280830}
   - component: {fileID: 768280829}
   - component: {fileID: 768280828}
+  - component: {fileID: 768280831}
   m_Layer: 5
   m_Name: SleevelessButton
   m_TagString: Untagged
@@ -1239,8 +1292,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 808352525}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+        m_MethodName: LoadQuiz
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1287,6 +1340,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768280826}
   m_CullTransparentMesh: 1
+--- !u!114 &768280831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768280826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b397d936642474b75b0dc3c1d258f2ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &808352523
 GameObject:
   m_ObjectHideFlags: 0

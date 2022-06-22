@@ -9,16 +9,15 @@ using UnityEngine.SceneManagement;
 public class QuizManager : MonoBehaviour
 {
     public List<Category> category;
-    public int category_index;
+    public static int categoryIndex;
 
-    // public List<QnA> QnA;
     public GameObject[] options;
     public int currentQuestion = 0;
     public GameObject Model;
     public GameObject ReviewModel;
     public Transform SpawnPosition;
 
-    private Vector3 modelPos = new Vector3 (-5, -4, 50);
+    private Vector3 modelPos = new Vector3 (-2.58f, -14.2f, 10);
     private Quaternion modelRot = Quaternion.Euler(0, 180, 0);
     // private Vector3 modelScale = ();
 
@@ -38,7 +37,8 @@ public class QuizManager : MonoBehaviour
     public Button proceedButton;
 
     private void Start() {
-        totalQuestions = category[category_index].QnA.Count;
+        Debug.Log(categoryIndex);
+        totalQuestions = category[categoryIndex].QnA.Count;
         GOPanel.SetActive(false);
         generateQuestion();
     }
@@ -91,9 +91,9 @@ public class QuizManager : MonoBehaviour
             options[i].GetComponent<Image>().color = options[i].GetComponent<AnswerScript>().startColor;
 
             options[i].GetComponent<AnswerScript>().isCorrect = false;
-            options[i].transform.GetChild(0).GetComponent<Image>().sprite = category[category_index].QnA[currentQuestion].Answers[i];
+            options[i].transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].QnA[currentQuestion].Answers[i];
 
-            if (category[category_index].QnA[currentQuestion].CorrectAnswer == i+1)
+            if (category[categoryIndex].QnA[currentQuestion].CorrectAnswer == i+1)
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
             }
@@ -105,12 +105,14 @@ public class QuizManager : MonoBehaviour
         QuizPanel.SetActive(true);
         ReviewPanel.SetActive(false);
 
-        if (category[category_index].QnA.Count > 0)
+        if (category[categoryIndex].QnA.Count > 0)
         {
             Debug.Log(currentQuestion);
 
-            QuestionTxt.text = category[category_index].QnA[currentQuestion].Question.text;
-            Model = Instantiate(category[category_index].QnA[currentQuestion].Model, SpawnPosition.position, modelRot);
+            QuestionTxt.text = category[categoryIndex].QnA[currentQuestion].Question.text;
+            Model = Instantiate(category[categoryIndex].QnA[currentQuestion].Model, modelPos, modelRot);
+            Model.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+            
             SetAnswers();
         }
         else
@@ -126,10 +128,11 @@ public class QuizManager : MonoBehaviour
         QuizPanel.SetActive(false);
         ReviewPanel.SetActive(true);
 
-        ReviewTxt.text = category[category_index].QnA[currentQuestion].Review.text;
-        ReviewModel = Instantiate(category[category_index].QnA[currentQuestion].reviewModel, modelPos, modelRot);
+        ReviewTxt.text = category[categoryIndex].QnA[currentQuestion].Review.text;
+        ReviewModel = Instantiate(category[categoryIndex].QnA[currentQuestion].reviewModel, modelPos, modelRot);
+        ReviewModel.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
         
-        category[category_index].QnA.RemoveAt(currentQuestion);
+        category[categoryIndex].QnA.RemoveAt(currentQuestion);
     }
 
     IEnumerator WaitForReview()
