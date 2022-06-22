@@ -350,7 +350,6 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/AnswerScript.cs"
 "Assets/Scripts/Category.cs"
-"Assets/Scripts/CategoryButton.cs"
 "Assets/Scripts/GrabRotation.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/QnA.cs"
