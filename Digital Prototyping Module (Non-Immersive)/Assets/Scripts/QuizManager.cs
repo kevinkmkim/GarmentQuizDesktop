@@ -34,6 +34,7 @@ public class QuizManager : MonoBehaviour
     private int tries = 0;
     public float score;
 
+    public Button reviewGarment;
     public Button proceedButton;
 
     private void Start() {
@@ -93,7 +94,7 @@ public class QuizManager : MonoBehaviour
             options[i].GetComponent<AnswerScript>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].QnA[currentQuestion].Answers[i];
 
-            if (category[categoryIndex].QnA[currentQuestion].CorrectAnswer == i+1)
+            if (category[categoryIndex].QnA[currentQuestion].CorrectAnswer == i)
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
             }
@@ -112,6 +113,8 @@ public class QuizManager : MonoBehaviour
             QuestionTxt.text = category[categoryIndex].QnA[currentQuestion].Question.text;
             Model = Instantiate(category[categoryIndex].QnA[currentQuestion].Model, modelPos, modelRot);
             Model.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+            GameObject child = Model.transform.GetChild(0).gameObject;
+            child.layer = LayerMask.NameToLayer("ReactToMask1");
             
             SetAnswers();
         }
@@ -125,12 +128,28 @@ public class QuizManager : MonoBehaviour
 
     void generateReview()
     {
+        Destroy(Model);
         QuizPanel.SetActive(false);
         ReviewPanel.SetActive(true);
 
+        Vector3 delta = new Vector3(3, 0, 0);
+
+
+        Model = Instantiate(category[categoryIndex].QnA[currentQuestion].Model, modelPos-delta, modelRot);
+        GameObject modelChild = Model.transform.GetChild(0).gameObject;
+        modelChild.layer = LayerMask.NameToLayer("ReactToMask1");
+
+
         ReviewTxt.text = category[categoryIndex].QnA[currentQuestion].Review.text;
-        ReviewModel = Instantiate(category[categoryIndex].QnA[currentQuestion].reviewModel, modelPos, modelRot);
+        ReviewModel = Instantiate(category[categoryIndex].QnA[currentQuestion].reviewModel, modelPos+delta, modelRot);
         ReviewModel.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        GameObject reviewModelChild = ReviewModel.transform.GetChild(0).gameObject;
+        reviewModelChild.layer = LayerMask.NameToLayer("ReactToMask2");
+
+        int answerIndex = category[categoryIndex].QnA[currentQuestion].CorrectAnswer;
+        reviewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].QnA[currentQuestion].Answers[answerIndex];
+
+
         
         category[categoryIndex].QnA.RemoveAt(currentQuestion);
     }
