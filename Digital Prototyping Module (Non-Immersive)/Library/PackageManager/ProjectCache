@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637916336780000000
-    m_Hash: 782766512
+      ticks: 637916808780000000
+    m_Hash: 1426192530
   m_LockFileStatus:
     m_FilePath: /Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module
       (Non-Immersive)/Packages/packages-lock.json
@@ -15,22 +15,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637916336780000000
-    m_Hash: 4214518840
+      ticks: 637916808820000000
+    m_Hash: 5958333
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module (Non-Immersive)/Packages
-m_EditorVersion: 2021.3.4f1 (cb45f9cae8b7)
+m_EditorVersion: 2021.3.5f1 (40eb3a945986)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.15.17
+- packageId: com.unity.collab-proxy@1.15.18
   testable: 0
   isDirectDependency: 1
-  version: 1.15.17
+  version: 1.15.18
   source: 1
   resolvedPath: /Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module
-    (Non-Immersive)/Library/PackageCache/com.unity.collab-proxy@1.15.17
+    (Non-Immersive)/Library/PackageCache/com.unity.collab-proxy@1.15.18
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -107,7 +107,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.15.17
     - 1.15.18
     - 1.17.0
     - 2.0.0-preview.6
@@ -156,16 +155,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637871149130000000
+  datePublishedTicks: 637888962690000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: fd95d00c5a7961beec85ee190181439d53fb0dba
+    revision: 611215dcd30048fa921b4be160048bad4022d65f
     path: 
   unityLifecycle:
-    version: 1.15.17
+    version: 1.15.18
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0

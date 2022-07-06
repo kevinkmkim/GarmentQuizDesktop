@@ -21,6 +21,7 @@ public class QuizManager : MonoBehaviour
     private Quaternion modelRot = Quaternion.Euler(0, 180, 0);
     // private Vector3 modelScale = ();
 
+    public GameObject PreviewPanel;
     public GameObject QuizPanel;
     public GameObject ReviewPanel;
     public GameObject GOPanel;
@@ -34,6 +35,7 @@ public class QuizManager : MonoBehaviour
     private int tries = 0;
     public float score;
 
+    public Button previewGarment;
     public Button reviewGarment;
     public Button proceedButton;
 
@@ -41,8 +43,9 @@ public class QuizManager : MonoBehaviour
         Debug.Log(categoryIndex);
         totalQuestions = category[categoryIndex].QnA.Count;
         GOPanel.SetActive(false);
-        generateQuestion();
+        generatePattern();
     }
+
 
     public void toMainMenu()
     {
@@ -101,10 +104,29 @@ public class QuizManager : MonoBehaviour
         }
     }
 
+    void generatePattern()
+    {
+        PreviewPanel.SetActive(true);
+        ReviewPanel.SetActive(false);
+
+        Model = Instantiate(category[categoryIndex].originalModel, modelPos, modelRot);
+        GameObject modelChild = Model.transform.GetChild(0).gameObject;
+        modelChild.layer = LayerMask.NameToLayer("ReactToMask1");
+
+        previewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].originalPattern;
+    }
+
+    public void startQuiz()
+    {
+        Destroy(Model);
+        generateQuestion();
+        PreviewPanel.SetActive(false);
+    }
+
     void generateQuestion()
     {
-        QuizPanel.SetActive(true);
         ReviewPanel.SetActive(false);
+        QuizPanel.SetActive(true);
 
         if (category[categoryIndex].QnA.Count > 0)
         {
@@ -148,8 +170,6 @@ public class QuizManager : MonoBehaviour
 
         int answerIndex = category[categoryIndex].QnA[currentQuestion].CorrectAnswer;
         reviewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].QnA[currentQuestion].Answers[answerIndex];
-
-
         
         category[categoryIndex].QnA.RemoveAt(currentQuestion);
     }
@@ -160,7 +180,7 @@ public class QuizManager : MonoBehaviour
         generateReview();
     }
 
-    public void Proceed()
+    public void proceed()
     {
         Destroy(Model);
         Destroy(ReviewModel);

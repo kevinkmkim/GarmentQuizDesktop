@@ -55,3 +55,11 @@ The following packages were updated:
   com.unity.ide.rider from version 3.0.13 to 3.0.14
   com.unity.ide.visualstudio from version 2.0.14 to 2.0.15
   com.unity.visualscripting from version 1.7.6 to 1.7.8
+
+=== Fri Jun 24 11:21:18 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.15.17 to 1.15.18
