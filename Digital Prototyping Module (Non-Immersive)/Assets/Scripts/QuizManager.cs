@@ -17,7 +17,8 @@ public class QuizManager : MonoBehaviour
     public GameObject ReviewModel;
     public Transform SpawnPosition;
 
-    private Vector3 modelPos = new Vector3 (-2.58f, -14.2f, 10);
+    // private Vector3 modelPos = ;
+    private Vector3[] modelPos = new [] { new Vector3 (-2.58f, -14.2f, 10), new Vector3 (-2.58f, -5.4f, 10), new Vector3 (-2.58f, -12f, 10), new Vector3 (-2.58f, -10.5f, 10), new Vector3 (-2.58f, -9f, 10) };
     private Quaternion modelRot = Quaternion.Euler(0, 180, 0);
     // private Vector3 modelScale = ();
 
@@ -30,6 +31,7 @@ public class QuizManager : MonoBehaviour
     public TextMeshProUGUI QuestionTxt;
     public TextMeshProUGUI ReviewTxt;
     public TextMeshProUGUI ScoreTxt;
+    public TextMeshProUGUI PatternTxt;
     
     int totalQuestions = 0;
     private int tries = 0;
@@ -43,7 +45,7 @@ public class QuizManager : MonoBehaviour
         Debug.Log(categoryIndex);
         totalQuestions = category[categoryIndex].QnA.Count;
         GOPanel.SetActive(false);
-        generatePattern();
+        generatePattern("Initial");
     }
 
 
@@ -56,6 +58,8 @@ public class QuizManager : MonoBehaviour
     {
         QuizPanel.SetActive(false);
         GOPanel.SetActive(true);
+
+        // Destroy(proceedButton);
 
         ScoreTxt.text = score + "/" + totalQuestions;
     }
@@ -104,20 +108,47 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    void generatePattern()
+    void generatePattern(string pattern_type)
     {
-        PreviewPanel.SetActive(true);
-        ReviewPanel.SetActive(false);
+        if (pattern_type == "Initial")
+        {
+            ReviewPanel.SetActive(false);
+            QuizPanel.SetActive(false);
+            PreviewPanel.SetActive(true);
 
-        Model = Instantiate(category[categoryIndex].originalModel, modelPos, modelRot);
-        GameObject modelChild = Model.transform.GetChild(0).gameObject;
-        modelChild.layer = LayerMask.NameToLayer("ReactToMask1");
+            PatternTxt.text = "Original Pattern";
 
-        previewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].originalPattern;
+            Model = Instantiate(category[categoryIndex].originalModel, modelPos[categoryIndex], modelRot);
+            GameObject modelChild = Model.transform.GetChild(0).gameObject;
+            modelChild.layer = LayerMask.NameToLayer("ReactToMask1");
+
+            previewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].originalPattern;
+
+            var button = proceedButton;
+            button.onClick.AddListener(() => startQuiz());
+        }
+        if (pattern_type == "Final")
+        {
+            ReviewPanel.SetActive(false);
+            QuizPanel.SetActive(false);
+            PreviewPanel.SetActive(true);
+
+            PatternTxt.text = "Final Pattern";
+
+            Model = Instantiate(category[categoryIndex].finalModel, modelPos[categoryIndex], modelRot);
+            GameObject modelChild = Model.transform.GetChild(0).gameObject;
+            modelChild.layer = LayerMask.NameToLayer("ReactToMask1");
+
+            previewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].finalPattern;
+
+            var button = proceedButton;
+            button.onClick.AddListener(() => GameOver());
+        }
     }
 
     public void startQuiz()
     {
+        // Destroy(proceedButton);
         Destroy(Model);
         generateQuestion();
         PreviewPanel.SetActive(false);
@@ -133,8 +164,8 @@ public class QuizManager : MonoBehaviour
             Debug.Log(currentQuestion);
 
             QuestionTxt.text = category[categoryIndex].QnA[currentQuestion].Question.text;
-            Model = Instantiate(category[categoryIndex].QnA[currentQuestion].Model, modelPos, modelRot);
-            Model.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+            Model = Instantiate(category[categoryIndex].QnA[currentQuestion].Model, modelPos[categoryIndex], modelRot);
+            // Model.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
             GameObject child = Model.transform.GetChild(0).gameObject;
             child.layer = LayerMask.NameToLayer("ReactToMask1");
             
@@ -143,7 +174,7 @@ public class QuizManager : MonoBehaviour
         else
         {
             Debug.Log("Out of Questions");
-            GameOver();
+            generatePattern("Final");
         }
     }
 
@@ -157,14 +188,14 @@ public class QuizManager : MonoBehaviour
         Vector3 delta = new Vector3(3, 0, 0);
 
 
-        Model = Instantiate(category[categoryIndex].QnA[currentQuestion].Model, modelPos-delta, modelRot);
+        Model = Instantiate(category[categoryIndex].QnA[currentQuestion].Model, modelPos[categoryIndex]-delta, modelRot);
         GameObject modelChild = Model.transform.GetChild(0).gameObject;
         modelChild.layer = LayerMask.NameToLayer("ReactToMask1");
 
 
         ReviewTxt.text = category[categoryIndex].QnA[currentQuestion].Review.text;
-        ReviewModel = Instantiate(category[categoryIndex].QnA[currentQuestion].reviewModel, modelPos+delta, modelRot);
-        ReviewModel.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        ReviewModel = Instantiate(category[categoryIndex].QnA[currentQuestion].reviewModel, modelPos[categoryIndex]+delta, modelRot);
+        // ReviewModel.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
         GameObject reviewModelChild = ReviewModel.transform.GetChild(0).gameObject;
         reviewModelChild.layer = LayerMask.NameToLayer("ReactToMask2");
 

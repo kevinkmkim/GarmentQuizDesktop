@@ -19,7 +19,7 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-06-27T10:15:31.020372Z"
+      "LastWriteTime": "2022-07-06T03:38:30.795464Z"
     },
     {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -27,7 +27,7 @@
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-06-27T10:15:30.921878Z"
+      "LastWriteTime": "2022-07-06T03:38:30.793001Z"
     }
   ],
   "Functions": [
@@ -153,6 +153,7 @@
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         6,
+        5,
         3,
         2
       ]
