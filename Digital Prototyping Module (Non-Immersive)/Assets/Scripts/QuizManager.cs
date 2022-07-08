@@ -17,7 +17,6 @@ public class QuizManager : MonoBehaviour
     public GameObject ReviewModel;
     public Transform SpawnPosition;
 
-    // private Vector3 modelPos = ;
     private Vector3[] modelPos = new [] { new Vector3 (-2.58f, -14.2f, 10), new Vector3 (-2.58f, -5.4f, 10), new Vector3 (-2.58f, -12f, 10), new Vector3 (-2.58f, -10.5f, 10), new Vector3 (-2.58f, -9f, 10) };
     private Quaternion modelRot = Quaternion.Euler(0, 180, 0);
     // private Vector3 modelScale = ();
@@ -40,6 +39,10 @@ public class QuizManager : MonoBehaviour
     public Button previewGarment;
     public Button reviewGarment;
     public Button proceedButton;
+
+    public AudioSource source;
+    public AudioClip correctSoundClip;
+    public AudioClip wrongSoundClip;
 
     private void Start() {
         Debug.Log(categoryIndex);
@@ -66,6 +69,8 @@ public class QuizManager : MonoBehaviour
 
     public void correct()
     {
+        source.PlayOneShot(correctSoundClip);
+
         if (tries == 0)
         {
             score += 1.0f;
@@ -81,6 +86,7 @@ public class QuizManager : MonoBehaviour
 
     public void wrong()
     {
+        source.PlayOneShot(wrongSoundClip);
         if (tries < 2)
         {
             tries += 1;
