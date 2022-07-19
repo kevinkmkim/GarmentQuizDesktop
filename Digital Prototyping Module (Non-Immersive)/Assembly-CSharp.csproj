@@ -116,6 +116,7 @@
      <None Include="Assets/Quiz Content/Sleeveless/3/text/question.txt" />
      <None Include="Assets/Quiz Content/Longsleeve/1/text/explanation.txt" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <None Include="Assets/Quiz Content/Longsleeve/4/text/explanation.txt" />
      <None Include="Assets/Quiz Content/Pants/2/text/question.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets/Quiz Content/Sleeveless/3/text/explanation.txt" />
@@ -131,6 +132,7 @@
      <None Include="Assets/Quiz Content/Longsleeve/1/text/question.txt" />
      <None Include="Assets/Quiz Content/Dress/1/text/explanation.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <None Include="Assets/Quiz Content/Longsleeve/4/text/question.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <None Include="Assets/Quiz Content/Sleeveless/4/text/explanation.txt" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
