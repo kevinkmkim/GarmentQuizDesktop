@@ -116,11 +116,11 @@ public class QuizManager : MonoBehaviour
 
     void generatePattern(string pattern_type)
     {
+        ReviewPanel.SetActive(false);
+        QuizPanel.SetActive(false);
+        PreviewPanel.SetActive(true);
         if (pattern_type == "Initial")
         {
-            ReviewPanel.SetActive(false);
-            QuizPanel.SetActive(false);
-            PreviewPanel.SetActive(true);
 
             PatternTxt.text = "Original Pattern";
 
@@ -135,9 +135,6 @@ public class QuizManager : MonoBehaviour
         }
         if (pattern_type == "Final")
         {
-            ReviewPanel.SetActive(false);
-            QuizPanel.SetActive(false);
-            PreviewPanel.SetActive(true);
 
             PatternTxt.text = "Final Pattern";
 

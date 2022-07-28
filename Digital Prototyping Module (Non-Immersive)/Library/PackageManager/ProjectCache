@@ -15,14 +15,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637938442980000000
-    m_Hash: 277548474
+      ticks: 637940557270000000
+    m_Hash: 3567137458
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module (Non-Immersive)/Packages
-m_EditorVersion: 2021.3.6f1 (7da38d85baf6)
+m_EditorVersion: 2021.3.5f1 (40eb3a945986)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@1.15.18
   testable: 0
@@ -312,6 +312,7 @@ m_ResolvedPackages:
     - 3.0.14
     - 3.0.15
     compatible:
+    - 3.0.14
     - 3.0.15
     verified: 3.0.15
   dependencies:
@@ -339,7 +340,7 @@ m_ResolvedPackages:
     revision: b61ff0378932fdf03b5891e09c91728337de674c
     path: 
   unityLifecycle:
-    version: 3.0.15
+    version: 3.0.14
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.16
   testable: 0
@@ -384,6 +385,7 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     compatible:
+    - 2.0.15
     - 2.0.16
     verified: 2.0.16
   dependencies:
@@ -417,7 +419,7 @@ m_ResolvedPackages:
     revision: c01855ef6461b821ab0226135e96a4ee86de96be
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.15
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
@@ -566,7 +568,7 @@ m_ResolvedPackages:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.6.6
+    version: 1.6.5
   - name: com.unity.render-pipelines.core
     version: 12.1.7
   - name: com.unity.ugui
@@ -3072,13 +3074,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.6
     nextVersion: 
-- packageId: com.unity.burst@1.6.6
+- packageId: com.unity.burst@1.6.5
   testable: 0
   isDirectDependency: 0
-  version: 1.6.6
+  version: 1.6.5
   source: 1
   resolvedPath: /Users/kevin/Documents/GitHub/3D-Quiz/Digital Prototyping Module
-    (Non-Immersive)/Library/PackageCache/com.unity.burst@1.6.6
+    (Non-Immersive)/Library/PackageCache/com.unity.burst@1.6.5
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3209,6 +3211,7 @@ m_ResolvedPackages:
     - 1.7.3
     - 1.8.0-pre.1
     compatible:
+    - 1.6.5
     - 1.6.6
     - 1.7.0-pre.1
     - 1.7.0
@@ -3233,16 +3236,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637902875830000000
+  datePublishedTicks: 637835629630000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 21ee3d01c6a374f6b01106f9eb6f1b43e113b1a3
+    revision: 370080478647882de41c08e5ca4b4ec26032d9c7
     path: 
   unityLifecycle:
-    version: 1.6.6
+    version: 1.6.5
     nextVersion: 
 - packageId: com.unity.render-pipelines.core@12.1.7
   testable: 0
