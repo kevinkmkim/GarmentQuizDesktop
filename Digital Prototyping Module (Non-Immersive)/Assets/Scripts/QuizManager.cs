@@ -60,6 +60,7 @@ public class QuizManager : MonoBehaviour
     public void GameOver()
     {
         QuizPanel.SetActive(false);
+        PreviewPanel.SetActive(false);
         GOPanel.SetActive(true);
 
         // Destroy(proceedButton);
@@ -152,9 +153,9 @@ public class QuizManager : MonoBehaviour
     public void startQuiz()
     {
         // Destroy(proceedButton);
+        PreviewPanel.SetActive(false);
         Destroy(Model);
         generateQuestion();
-        PreviewPanel.SetActive(false);
     }
 
     void generateQuestion()
