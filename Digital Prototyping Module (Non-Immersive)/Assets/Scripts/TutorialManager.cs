@@ -16,7 +16,7 @@ public class TutorialManager : MonoBehaviour
     public GameObject ReviewModel;
     public Transform SpawnPosition;
 
-    private Vector3 modelPos = new Vector3 (0f, -1.2f, 0.5f);
+    private Vector3 modelPos = new Vector3 (-2.58f, -12f, 10f);
     private Quaternion modelRot = Quaternion.Euler(0, 180, 0);
     // private Vector3 modelScale = ();
 

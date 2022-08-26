@@ -1,0 +1,745 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1661259670745383, "dur": 143514, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661259670746088, "dur": 27469, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661259670773642, "dur": 104145, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661259670877808, "dur": 11089, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661259675523667, "dur": 76003, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661259675523845, "dur": 3209, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661259675527055, "dur": 71447, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661259675598510, "dur": 1160, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661259675599894, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1661259675549795, "dur":902, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675550701, "dur":1436, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1661259675552146, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1661259675552157, "dur":78, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1661259675552240, "dur":264, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675552504, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675568996, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569008, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569038, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569048, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569063, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569065, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569080, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569082, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569097, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569098, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569113, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569114, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569130, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569132, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569147, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569148, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569164, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569167, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675569169, "dur":1127, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1661259675552179, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675552512, "dur":1549, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554063, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554063, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554088, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554111, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554317, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554472, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554475, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554545, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554821, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1661259675554859, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675555154, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675555191, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1661259675555504, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675555510, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675555523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675555628, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675555997, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675556090, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675556146, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675556340, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675556798, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675556854, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675556933, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675557012, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675557338, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675557353, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675557445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675557448, "dur":338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675557828, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675557889, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675557932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675557934, "dur":255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675558217, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675558241, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675558366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675558444, "dur":309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675558794, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675558842, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675558946, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675559071, "dur":227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675559375, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675559408, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675559486, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675559583, "dur":609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675560257, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675560283, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675560326, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675560471, "dur":372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675560886, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675560921, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675561114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675561117, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675561730, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675561794, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675561837, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675562011, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675562443, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675562504, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675562599, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675562716, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675563247, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675563249, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675563297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675563300, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675563806, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675563827, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675563851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675563853, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675564417, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675564429, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675564513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675564540, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675565390, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675565429, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675565519, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675565562, "dur":439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675566006, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675566027, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675566090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675566092, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661259675566570, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1661259675566601, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675566700, "dur":458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1661259675567160, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1661259675567168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675567169, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1661259675567849, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1661259675567929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675567970, "dur":335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1661259675568309, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1661259675568344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661259675568346, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1661259675568938, "dur":51, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675552186, "dur":327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675552513, "dur":1551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675554067, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661259675554120, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675554190, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675554788, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661259675555074, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1661259675555077, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675555095, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675555248, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1661259675555925, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop.exe" }}
+,{ "pid":12345, "tid":2, "ts":1661259675555960, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675556025, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675556117, "dur":265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop.exe" }}
+,{ "pid":12345, "tid":2, "ts":1661259675556423, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675556431, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675556584, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675556665, "dur":248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675556949, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675556982, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675557035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675557037, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675557220, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675557221, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675557316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675557375, "dur":420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675557840, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675557878, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675557945, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675558010, "dur":468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675558529, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675558594, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675558707, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675558834, "dur":260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675559149, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675559194, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675559267, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675559378, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675559627, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675559631, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675559655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675559657, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675560249, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675560274, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675560318, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675560434, "dur":383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675560863, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675560888, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675560930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675560932, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675561233, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675561236, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675561243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675561245, "dur":404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675561723, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675561759, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675561848, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675561860, "dur":413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675562340, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675562388, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675562404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675562406, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675562681, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675562715, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675562785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675562787, "dur":603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675563393, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675563400, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675563496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675563498, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675564145, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675564192, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675564290, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675564439, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675565377, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675565419, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675565479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675565482, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675566027, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675566031, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675566076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675566078, "dur":411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661259675566564, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1661259675566625, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675566701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675566855, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1661259675567524, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1661259675567544, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675567574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675567576, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1661259675567922, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1661259675567961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675567964, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1661259675568373, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1661259675568383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661259675568385, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1661259675568934, "dur":54, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675552195, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675552515, "dur":1556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675554077, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1661259675554134, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675554219, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675554992, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1661259675555327, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1661259675555403, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675555537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675555540, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1661259675555984, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1661259675556029, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675556088, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675556237, "dur":257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1661259675556497, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675556501, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675556693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675556729, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675556974, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675557009, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675557103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675557106, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675557751, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675557757, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675557813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675557846, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675558277, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675558296, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675558360, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675558363, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675558760, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675558791, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675558847, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675559001, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675559286, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675559332, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675559448, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675559563, "dur":393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675559961, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675559963, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675560007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675560148, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675560411, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675560707, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675560805, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675560906, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675561757, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675561834, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675561878, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675561919, "dur":389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675562352, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675562429, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675562537, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675562672, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675563281, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675563288, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675563406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675563409, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675564241, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675564299, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675564396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675564398, "dur":367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675564768, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675564771, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675564822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675564825, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675565470, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675565544, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675565718, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675565765, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661259675566767, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1661259675566817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675566819, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1661259675567466, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1661259675567476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675567499, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1661259675568279, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1661259675568304, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675568347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661259675568349, "dur":425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1661259675568776, "dur":238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675552202, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675552517, "dur":1557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675554079, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661259675554129, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675554185, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675554523, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661259675554727, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661259675554730, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675554743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675554794, "dur":268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661259675555066, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661259675555070, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675555103, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675555263, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661259675555964, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1661259675555999, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675556064, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675556298, "dur":286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1661259675556604, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675556608, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675556693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675556799, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557114, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557150, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557211, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557715, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557737, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557757, "dur":208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557976, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675557982, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675558036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675558038, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675558479, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675558520, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675558618, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675558770, "dur":206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675559009, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675559052, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675559130, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675559271, "dur":244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675559556, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675559587, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675559665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675559668, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675560259, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675560285, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675560329, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675560491, "dur":362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675560900, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675560917, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675561077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675561080, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675561593, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675561671, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675561809, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675561891, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675562420, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675562459, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675562596, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675562694, "dur":243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675562941, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675562945, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675562986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675563020, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675563741, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675563794, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675564085, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675564235, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675564647, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675564661, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675564721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675564725, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675565432, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675565461, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675565577, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675565762, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661259675566625, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661259675566680, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675566703, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661259675567205, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661259675567209, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675567217, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661259675567853, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1661259675567858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675567859, "dur":378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1661259675568281, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661259675568289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675568291, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661259675568609, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661259675568658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661259675568659, "dur":314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661259675568976, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1661259675568976, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675552210, "dur":308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675552518, "dur":1561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675554081, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1661259675554173, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675554232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675555192, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1661259675555461, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1661259675555465, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675555573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675555575, "dur":254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1661259675555834, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675555900, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675555909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675555966, "dur":235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675556255, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675556274, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675556353, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675556428, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675556822, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675556892, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675556940, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675556959, "dur":332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675557295, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675557300, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675557377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675557400, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675557824, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675557853, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675557922, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675558007, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675558556, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675558681, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675558738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675558740, "dur":241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675559014, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675559027, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675559181, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675559305, "dur":275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675559675, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675559678, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675559703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675559706, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675560280, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675560384, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675560416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675560418, "dur":332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675560812, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675560845, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675560901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675560929, "dur":262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675561194, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675561197, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675561264, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675561529, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675561866, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675561903, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675562177, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675562363, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675562762, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675562888, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675563024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675563026, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675563743, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675563796, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675564015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675564017, "dur":416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675564512, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675564538, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675564585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675564587, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675565463, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675565522, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675565729, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675565737, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661259675566568, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1661259675566609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675566637, "dur":394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1661259675567034, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1661259675567039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675567093, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1661259675567911, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1661259675567956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661259675567962, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1661259675568715, "dur":288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675552218, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675552519, "dur":1572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675554091, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1661259675554170, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675554234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675555472, "dur":280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1661259675555755, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1661259675555758, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675555780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675555825, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1661259675556171, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675556215, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675556313, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675556362, "dur":380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675556787, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675556828, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675556937, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675556992, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675557534, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675557536, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675557823, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675557889, "dur":382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675558290, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675558338, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675558443, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675558565, "dur":274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675558903, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675558973, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675559022, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675559161, "dur":268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675559498, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675559521, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675559579, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675559606, "dur":403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675560039, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675560095, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675560183, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675560302, "dur":381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675560793, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675560823, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675560870, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675560999, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675561690, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675561726, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675561810, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675561904, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675562473, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675562510, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675562578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675562581, "dur":270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675562853, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675562856, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675562882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675562885, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675563482, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675563486, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675563576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675563579, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675564286, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675564344, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675564497, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675564654, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675565464, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675565528, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675565612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675565636, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675566480, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675566983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675567251, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661259675567731, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1661259675567737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675567738, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1661259675568367, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1661259675568372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661259675568375, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1661259675568841, "dur":165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675552225, "dur":295, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675552520, "dur":1566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675554086, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1661259675554137, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675554194, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675554817, "dur":349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1661259675555209, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1661259675555260, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675555313, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675555382, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1661259675555994, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675556036, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675556122, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675556317, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675556789, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675556839, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675556941, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675556960, "dur":310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675557274, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675557276, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675557286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675557288, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675557832, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675557870, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675557931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675557934, "dur":301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675558275, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675558315, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675558416, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675558530, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675558830, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675558969, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675559007, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675559106, "dur":231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675559416, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675559475, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675559507, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675559606, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675560118, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675560256, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675560313, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675560426, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675560849, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675560878, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675560929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675560932, "dur":299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675561258, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675561267, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675561478, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675561529, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675561875, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675562064, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675562265, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675562366, "dur":281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675562692, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675562759, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675562886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675562888, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675563526, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675563529, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675563668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675563671, "dur":455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675564204, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675564255, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675564368, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675564522, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675565423, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675565467, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675565582, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675565736, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675566318, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675566380, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675566494, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675566631, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661259675566925, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1661259675566930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675566932, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1661259675567467, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1661259675567473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675567476, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1661259675567964, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1661259675567970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661259675567972, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1661259675568775, "dur":229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675552236, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675552522, "dur":1540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675554064, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661259675554110, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675554173, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675554604, "dur":281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661259675554888, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1661259675554891, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675554987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675554992, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1661259675555331, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1661259675555343, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675555382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675555384, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1661259675555665, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675555668, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675555681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675555686, "dur":307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675556056, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675556104, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675556156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675556321, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675556705, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675556745, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675556813, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675556909, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675557101, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675557104, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675557245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675557247, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675557687, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675557689, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675557826, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675557889, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675558272, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675558292, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675558360, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675558362, "dur":349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675558765, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675558798, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675558862, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675559010, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675559259, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675559301, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675559402, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675559533, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675559827, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675559876, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675559913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675559916, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675560322, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675560350, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675560385, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675560415, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675560825, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675560859, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675560910, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675561079, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675561704, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675561854, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675561915, "dur":100, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675562096, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675562600, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675562658, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675562764, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675562810, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675563528, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675563532, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675563638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675563641, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675564260, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675564324, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675564487, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675564638, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675565468, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675565685, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675565743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675565745, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675566460, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675566605, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675566675, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675566784, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661259675567186, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1661259675567190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675567192, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1661259675567979, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1661259675568003, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675568091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661259675568093, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/kevinkim/Desktop/Pilot Test/Digital Prototyping Module for Desktop_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1661259675568673, "dur":323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661259675571066, "dur":501, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1661259675599966, "dur": 357, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661259675599869, "dur": 462, "ph": "X", "name": "Write chrome-trace events", "args": {} },
